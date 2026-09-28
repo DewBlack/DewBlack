@@ -1,0 +1,45 @@
+name: Pac-Man contribution graph
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/pacman.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pacman
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Generate the graph
+        uses: abozanona/pacman-contribution-graph@v5.3.2
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: pacman
+
+      # Swap GitHub's green contribution levels for the portfolio purple.
+      - name: Recolor to the portfolio palette
+        run: |
+          sed -i -e 's/#0e4429/#3a1c4d/gI; s/#006d32/#612a86/gI; s/#26a641/#9340c2/gI; s/#39d353/#c858f8/gI' \
+            dist/pacman-contribution-graph-dark.svg
+          sed -i -e 's/#9be9a8/#e6ccf9/gI; s/#40c463/#cf98f3/gI; s/#30a14e/#b163e6/gI; s/#216e39/#8a2fc4/gI' \
+            dist/pacman-contribution-graph.svg
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          commit_message: Update Pac-Man contribution graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
