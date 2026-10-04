@@ -140,7 +140,7 @@ MANROPE_SEMI = Font("Manrope-latin-variable.woff2", 600)
 MANROPE_BOLD = Font("Manrope-latin-variable.woff2", 700)
 INTER_BLACK = Font("InterDisplay-Black.woff2", 900)
 
-# Hex board, a nod to Circuit Flow: red and blue signals merge into purple and power two targets.
+# Hex board, a nod to Kromivolt: red and blue signals merge into purple and power two targets.
 HEX = 44.0
 HEX_W = math.sqrt(3) * HEX
 HEX_X0, HEX_YC = 700.0, HEIGHT / 2
