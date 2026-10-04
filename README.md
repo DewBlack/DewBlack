@@ -49,7 +49,9 @@ I'm a game developer from Valencia with **5+ years** building games and real-tim
 
 ### 🌱 Tooth Garden · TOP SECRET
 
-Our next original game at **Pal Lobby Games** is taking root. **In development.** The rest? Classified. 🤫
+<img alt="Tooth Garden TOP SECRET teaser: a crowned molar silhouette with a magenta glow" src="assets/work/tooth-garden-top-secret.png" width="100%">
+
+Something unusual is taking root. Our next game at **Pal Lobby Games** is **in development**. The rest? Classified. 🤫
 
 <table>
   <tr>
