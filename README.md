@@ -17,23 +17,23 @@
 I'm a game developer from Valencia with **5+ years** building games and real-time 3D products in **Unity** and **Godot**. I started making mods at 16 and haven't stopped since. These days I focus on what keeps a game healthy as it grows: gameplay systems, internal tools, data-driven content and performance on the target hardware.
 
 - 🎰 **Now** · Senior Game Developer at **Degestec Games**, where I designed the core architecture of a Godot slots game for Android and web.
-- 🔥 **My studio** · Founder of **[Pal Lobby Games](https://pallobbygames.com/)**, launching **Circuit Flow** on Google Play soon.
+- 🔥 **My studio** · Founder of **[Pal Lobby Games](https://pallobbygames.com/)**, launching **Kromivolt** on Google Play soon.
 - 🥽 **Before** · Led **MindSafe4U**, an EU-funded VR game presented at **MWC 2025**.
 - 🤝 **Open to** · Gameplay, tools, systems or XR roles. Remote, hybrid or on-site.
 
 ## Featured work
 
-### ⚡ Circuit Flow
+### ⚡ Kromivolt
 
-<a href="https://pallobbygames.com/games/circuit-flow/"><img alt="Circuit Flow key art" src="assets/work/circuit-flow-feature.webp" width="100%"></a>
+<a href="https://pallobbygames.com/games/circuit-flow/"><img alt="Kromivolt key art" src="assets/work/kromivolt-feature.png" width="100%"></a>
 
 **Connect the circuit. Power every target.** A comic-style logic puzzle for Android: rotate circuit pieces, press POWER and watch red, blue and purple signals travel across the board. Every target needs the right colour and strength.
 
 <p align="center">
-  <img alt="World selection screen with the four worlds" src="assets/work/circuit-flow-four-worlds.webp" width="24%">
-  <img alt="Solved level with powered branches" src="assets/work/circuit-flow-powered-branches.webp" width="24%">
-  <img alt="Advanced network combining red and blue signals" src="assets/work/circuit-flow-advanced-networks.webp" width="24%">
-  <img alt="Level 100, the final circuit" src="assets/work/circuit-flow-expert-mastery.webp" width="24%">
+  <img alt="World selection screen with the four worlds" src="assets/work/kromivolt-four-worlds.webp" width="24%">
+  <img alt="Solved level with powered branches" src="assets/work/kromivolt-powered-branches.webp" width="24%">
+  <img alt="Advanced network combining red and blue signals" src="assets/work/kromivolt-advanced-networks.webp" width="24%">
+  <img alt="Level 100, the final circuit" src="assets/work/kromivolt-expert-mastery.webp" width="24%">
 </p>
 
 **100** campaign puzzles · **4** worlds with new mechanics · **20** extra challenges · _Coming soon to Google Play_
@@ -46,6 +46,10 @@ I'm a game developer from Valencia with **5+ years** building games and real-tim
 - **CI:** GitHub Actions running headless regression tests and automated Android builds.
 
 `Godot 4` `GDScript` `Android` `Google Play Games` `AdMob` `GitHub Actions`
+
+### 🌱 Tooth Garden · TOP SECRET
+
+Our next original game at **Pal Lobby Games** is taking root. **In development.** The rest? Classified. 🤫
 
 <table>
   <tr>
@@ -110,7 +114,7 @@ Also on GitHub: [game jam prototypes](https://github.com/DewBlack/Games) built o
 
 | When | Role | Where | Focus |
 | :-- | :-- | :-- | :-- |
-| 2026&nbsp;–&#8288;&nbsp;now | **Founder & Lead Developer** | [Pal&nbsp;Lobby&nbsp;Games](https://pallobbygames.com/) | Design, code and release of Circuit Flow |
+| 2026&nbsp;–&#8288;&nbsp;now | **Founder & Lead Developer** | [Pal&nbsp;Lobby&nbsp;Games](https://pallobbygames.com/) | Design, code and release of Kromivolt |
 | 2025&nbsp;–&#8288;&nbsp;now | **Senior Game Developer** | Degestec Games | Godot architecture for Android and web, Docker, CI/CD |
 | 2022&nbsp;–&#8288;&nbsp;2025 | **Lead Unity Developer** | Grupo Saltó | MindSafe4U for Meta Quest and PICO, dialogue and editor tools |
 | 2022 | **Unity 3D Developer** | Universae | Educational simulations for WebGL and Android |
@@ -138,7 +142,7 @@ Also on GitHub: [game jam prototypes](https://github.com/DewBlack/Games) built o
 
 <a href="https://pallobbygames.com/"><img alt="Pal Lobby Games. Games with personality. Creativity. Play. Character." src="assets/studio.svg" width="100%"></a>
 
-In 2026 I founded **Pal Lobby Games** to create and publish original games, made to enjoy, discover and come back to. Our first release is **Circuit Flow**. The studio is also open to:
+In 2026 I founded **Pal Lobby Games** to create and publish original games, made to enjoy, discover and come back to. Our first release is **Kromivolt**. The studio is also open to:
 
 - Collaborations on original games
 - Development support in Unity and Godot
